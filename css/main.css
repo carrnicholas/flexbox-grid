@@ -10,7 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+html { /*unsure of what this is, don't change the code! */
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -96,8 +96,8 @@ textarea {
    ========================================================================== */
 
 
-html {
-  background-color: #fff;
+html { /* add height tag 100% here */
+  background-color: #000000;
   height: 100%;
 }
 
@@ -108,24 +108,30 @@ body {
   height: 100%;
 }
 
-.wrapper {
+.wrapper { /* For space around divs */
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.div-1, .div-2, .div-3 {
+.div-1, .div-2, .div-3 { /* For the divs themselves */
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #ffffff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #000000;
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30%;
+}
+
+.div-2 {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
 }
 
 
