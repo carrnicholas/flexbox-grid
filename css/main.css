@@ -97,7 +97,7 @@ textarea {
 
 
 html { /* add height tag 100% here */
-  background-color: #000000;
+  background-color: #f2f0e6;
   height: 100%;
 }
 
@@ -132,16 +132,21 @@ header {
 
 #navbar a {
   text-decoration: none;
-  color: #ffffff;
+  color: #5d8aa8;
+}
+
+#navbar {
+  width: 15%;
 }
 
 #navbar a:hover {
-  color: #5d8aa8;
+  color: #c46210;
 }
 
 #navbar ul {
   list-style-type: none;
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
 }
 
 main p {
@@ -150,12 +155,12 @@ main p {
   align-items: center;
 }
 
-.div-1, .div-2, .div-3 { /* For the divs themselves */
+.div-1, .div-2, .div-3 { /* Changes here affect divs */
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #ffffff;
+  color: #808080; /* changes text color in divs */
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #000000;
+  background-color: #6699cc; /*changes color of divs themselves */
   height: 300px;
   display: flex;
   justify-content: center;
@@ -164,8 +169,8 @@ main p {
 }
 
 .div-2 {
-  border-left: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
+  border-left: 1px solid #f2f3f4;
+  border-right: 1px solid #f2f3f4;
 }
 
 .flex-thing {
