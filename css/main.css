@@ -114,19 +114,20 @@ body {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-header {
-  display: flex;
-  justify-content: space-beween;
+.flex-thing {
+  width: 100%;
 }
 
-#navbar {
+header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%
 }
 
 #navbar a {
